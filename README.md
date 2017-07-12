@@ -1,6 +1,4 @@
 # Hypothesis to Prototype 101
-
-# Objectives
 - Learn and apply framework for going from hypothesis to prototype
 - Get familiar with common tools and technologies for hypothesis-driven product development
 - Get introduced to recommender systems
@@ -41,12 +39,12 @@
 3. What are the ideal characteristics of the data we collect?
 4. What is A/B testing and how does it work?
 5. Exercises: What metric(s) would you measure for testing the success of the following hypotheses?
-    a. Voice control for sports stats will increase engagement on our sports websites by at least 20%
-    b. New pricing model for all-inclusive access will increase cross-platform engagement
-    c. Sports betting feature will increase revenue from sports channels by at least 10%
-    d. Crowdsourced voting for trending content will increase user engagement
-    e. Gamification of our content channels will increase user engagement
-    f. Promotional text messages will increase user acquisition for our other channels by 10% or more
+    1. Voice control for sports stats will increase engagement on our sports websites by at least 20%
+    2. New pricing model for all-inclusive access will increase cross-platform engagement
+    3. Sports betting feature will increase revenue from sports channels by at least 10%
+    4. Crowdsourced voting for trending content will increase user engagement
+    5. Gamification of our content channels will increase user engagement
+    6. Promotional text messages will increase user acquisition for our other channels by 10% or more
 
 
 ### Combined Template
