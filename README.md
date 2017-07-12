@@ -185,3 +185,85 @@ def test_sign_up():
     # 4. Check that the password got updated correctly
     assert user.password_matches("newpass")
 ```
+
+# Movie Recommender
+## App Objective
+We want to build a recommendation back-end that takes your taste profile and generates movies you might like, based on some measure of similarity to the ones in your taste profile.
+
+We'll then run an experiment where we surface the "recommended" movies for a random subset of the users (Experimental Group) and for the users we would show the most popular movies, regardless of taste profile - this will be the Control Group.
+
+## Third-Party API Integration (35)
+
+### Questions (10)
+0. What is [TheMovieDB API](https://www.themoviedb.org/documentation/api)?
+1. What are the different endpoints?
+2. Find examples of how to query the API
+3. How can we use this API in our application?
+
+### Live Code Together (5)
+Let's fetch a list of the most popular movies overall.
+
+**Note**: Here is my API key: `34a332fb7669cdf88e89f1fefdbb2c3e`
+
+### Exercise Set 1 (10)
+0. What are the genres available for Movies? What is the id of Horror?
+1. What are the most popular sci-fi movies?
+
+### Exercise Set 2 (10)
+2. What are the most popular sci-fi movies released in 2011?
+3. What are the movies that match the search term "Lord"?
+
+## Prediction, Clustering & Recommendation
+### Questions (15)
+1. What is a prediction?
+2. What do you base it on?
+3. How do you know it's good?
+4. What are some examples of predictions you make or technology that you use makes?
+
+### Supervised Learning
+#### Definitions (10)
+- target
+- feature
+- training set
+- validation set
+- model
+
+#### Questions (10)
+Suppose we only have the following data set.
+
+release_year | genre | imdb_score | fb_fan_count | watched
+--- | --- | --- | --- | ---
+2011 | Sci-Fi | 6.5 | 750000 | 1
+1977 | Romance | 8.8 | 1500 | 0
+1977 | Sci-Fi  | 7.5 | 8688 | 1
+... | ... | ... | ... |...
+
+0. What should be the target?
+1. What are the features?
+2. What data should we train it on?
+3. What data should we test it against?
+
+### A Simple Model (10, Optional)
+We'll explore k Nearest Neighbors to illustrate how a machine learning model works.
+
+### Neural Networks & Feedback (Optional, 25)
+#### Questions (15)
+0. What is feedback?
+1. How do you think it relates to recommendations?
+2. What types of feedback could you collect from the user that should factor into future recommendations?
+
+#### Perceptron Neural Network (10)
+Let's walk through how a perceptron works, at a high-level.
+
+### Unsupervised Learning - Clustering (2)
+#### Questions (15)
+1. Suppose you have 100 users and you know for each user what their age, location, favorite genres, and other useful intelligence. How would you organize them into 10 subgroups? Why would you even do this?
+2. Suppose you have a lot of historical data on John, who belongs to Subgroup 1, in terms of what movies he's watched. How could this be useful?
+3. Could this process of grouping apply to movies as well? If so, how and why?
+
+#### Definitions (5)
+- clustering
+- collaborative filtering
+
+## Let's Live-Code an Example
+Suppose we have a bunch of historical data
