@@ -287,3 +287,20 @@ A brief walk-through of logistic regression and how it works.
 3. Let's train the model, using logistic regression.
 4. Let's predict a few entries from the validation set and check.
 5. Let's check the overall accuracy.
+
+# Analyzing Our Results Using Pandas (35)
+## Questions (10)
+1. What is an A/B test?
+2. How do we use it to make a decision?
+3. How do we know we have enough data to make a conclusion?
+
+## Significance Testing (10)
+Here we'll walk through the intuition and explanation of significance testing.
+
+##  Example (15)
+We'll follow this process:
+
+0. Read in the data
+1. Compute aggregate metrics
+2. Do some significance testing
+
