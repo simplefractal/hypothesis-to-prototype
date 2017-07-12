@@ -65,6 +65,7 @@
         2. Moderating comments on articles will increase user engagement
         3. Promotional text messages will increase user acquisition for our other channels by 10% or more
 
+
 # Overview of Tools and Technologies
 ## The Stack
 What is a "stack"?
@@ -252,7 +253,16 @@ def test_sign_up():
     assert user.password_matches("newpass")
 ```
 
+
 # Movie Recommender
+
+## The Setup
+**Hypothesis**: Generating recommendations based on a user’s movie history will result in more engagement than simply using the popular movies list, as indicated by minutes watched increasing by 10%.
+
+**Data**: We want to capture a user’s taste profile based on some movies they tell us they’ve seen and we want to capture what movies a user watches through our platform. We'd also need to capture minutes watched as our primary metric.
+
+**Experiment**: We’ll create a user profile on-boarding and add usage tracking to our video player. A random subset of the users will get their recommendations from this new recommendation engine and the remainder will get their recommendations from a global popular movies list.
+
 ## App Objective
 We want to build a recommendation back-end that takes your taste profile and generates movies you might like, based on some measure of similarity to the ones in your taste profile.
 
