@@ -266,9 +266,12 @@ Let's walk through how a perceptron works, at a high-level.
 - collaborative filtering
 
 ## Let's Live-Code an Example (30)
+### The Data
+https://s3.amazonaws.com/simple-fractal-workshops/movie_history_for_user.csv
+
 ### Together (10)
-0. What is `pandas`?
-1. Let's read in the data
+0. What is [`pandas`](http://pandas.pydata.org/pandas-docs/stable/)?
+1. Let's read in the data.
 
 ### Questions (5)
 0. What is the data? What are the fields?
@@ -279,7 +282,7 @@ Let's walk through how a perceptron works, at a high-level.
 A brief walk-through of logistic regression and how it works.
 
 ### Together (20)
-0. What is `scikit-learn`?
+0. What is [`scikit-learn`](http://scikit-learn.org/stable/)?
 1. Let's separate into feature and target.
 2. Let's split into training and validation set.
 3. Let's train the model, using logistic regression.
