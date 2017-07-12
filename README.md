@@ -265,5 +265,23 @@ Let's walk through how a perceptron works, at a high-level.
 - clustering
 - collaborative filtering
 
-## Let's Live-Code an Example
-Suppose we have a bunch of historical data
+## Let's Live-Code an Example (30)
+### Together (10)
+0. What is `pandas`?
+1. Let's read in the data
+
+### Questions (5)
+0. What is the data? What are the fields?
+1. What should we consider the target? How about the features?
+2. Any questions about this data?
+
+### Logistic Regression (10)
+A brief walk-through of logistic regression and how it works.
+
+### Together (20)
+0. What is `scikit-learn`?
+1. Let's separate into feature and target.
+2. Let's split into training and validation set.
+3. Let's train the model, using logistic regression.
+4. Let's predict a few entries from the validation set and check.
+5. Let's check the overall accuracy.
