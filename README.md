@@ -6,7 +6,7 @@ What is a "stack"?
 2. Server
 3. Database
 
-## UI
+## UI (10)
 ### HTML
 ```html
 <html>
@@ -63,7 +63,7 @@ HTML, CSS and JS are the main technologies used in web UIs.
 #### Questions
 1. What is the job of the UI?
 
-## Server
+## Server (5)
 ```python
 
 @app.route('/recommendations')
@@ -87,7 +87,7 @@ What is a back-end framework?
 - Java
 
 ## (SQL) Databases
-### Questions
+### Questions (Optional)
 1. What is data?
 2. What is a database?
 3. What gets stored in a database?
@@ -111,30 +111,29 @@ id | user_id | action    | date_logged
 10 | 1       | reset_password| 2017-07-13 14:12:12
 11 | 2       | login         | 2017-07-14 11:12:12
 
-### Questions
+### Questions (5)
 0. What do the above tables correspond to?
 1. What are the fields and what is the data type of each field?
 2. How are these tables related?
 3. What types of questions would you ask this database?
 
-### Discuss Together
+### Discuss Together (Optional)
 0. What is SQL?
 1. Why SQL?
 2. Are there alternatives to SQL?
 
-## Hosting
+## Hosting, Analytics, and Tools (5)
+### Hosting
 - [Heroku](https://heroku.com)
 - [Amazon Web Services](https://aws.amazon.com)
 
-What are the pros & cons of each?
-
-## Analytics
+### Analytics
 - [Google Analytics](https://analytics.google.com)
 - [Mixpanel](https://mixpanel.com/)
 - [Segment](https://segment.com)
 - [Fullstory](https://fullstory.com)
 
-## Development & Workflow Tools
+### Development & Workflow Tools
 - [GitHub](https://github.com)
 - [Asana](https//asana.com)
 - [Slack](https://slack.com)
@@ -142,18 +141,18 @@ What are the pros & cons of each?
 - [Sublime](https://www.sublimetext.com/)
 - [Postico](https://eggerapps.at/postico/)
 
-## Testing
-### Questions
+## Testing (20)
+### Questions (5)
 0. How do you know your app works the way you want it to?
 1. How do you know your new feature doesn't break old functionality?
 
-### Automation
+### Automation (5)
 - Unit
 - Functional
 - Integration
 - End-to-End (E2E)
 
-### Examples
+### Examples (10)
 #### End-to-End Test
 [Here](https://drive.google.com/file/d/0Byveb6yWfKu2MDAzM0RaQ2hyY0U/view) is an example of an E2E test
 
@@ -213,7 +212,7 @@ Let's fetch a list of the most popular movies overall.
 2. What are the most popular sci-fi movies released in 2011?
 3. What are the movies that match the search term "Lord"?
 
-## Prediction, Clustering & Recommendation
+## Prediction, Clustering & Recommendation (55-90)
 ### Questions (15)
 1. What is a prediction?
 2. What do you base it on?
@@ -255,7 +254,7 @@ We'll explore k Nearest Neighbors to illustrate how a machine learning model wor
 #### Perceptron Neural Network (10)
 Let's walk through how a perceptron works, at a high-level.
 
-### Unsupervised Learning - Clustering (2)
+### Unsupervised Learning - Clustering (20)
 #### Questions (15)
 1. Suppose you have 100 users and you know for each user what their age, location, favorite genres, and other useful intelligence. How would you organize them into 10 subgroups? Why would you even do this?
 2. Suppose you have a lot of historical data on John, who belongs to Subgroup 1, in terms of what movies he's watched. How could this be useful?
@@ -265,7 +264,7 @@ Let's walk through how a perceptron works, at a high-level.
 - clustering
 - collaborative filtering
 
-## Let's Live-Code an Example (30)
+## Let's Live-Code an Example (45)
 ### The Data
 https://s3.amazonaws.com/simple-fractal-workshops/movie_history_for_user.csv
 
