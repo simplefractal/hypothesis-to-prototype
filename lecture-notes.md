@@ -111,34 +111,34 @@
         - Monthly active users (MAU)
 
 5. Exercises: What metric(s) would you measure for testing the success of the following hypotheses?
-    a. Voice control for sports stats will increase engagement on our sports websites by at least 20%
+    1. Voice control for sports stats will increase engagement on our sports websites by at least 20%
         - \# times voice control was used and by whom
         - \# clicks
         - \# MAU
 
-    b. New pricing model for all-inclusive access will increase cross-platform engagement
+    2. New pricing model for all-inclusive access will increase cross-platform engagement
         - \# clicks
         - \# MAU
         - revenue
 
-    c. Sports betting feature will increase revenue from sports channels by at least 10%
+    3. Sports betting feature will increase revenue from sports channels by at least 10%
         - sports revenue
         - overall revenue
 
-    d. Crowdsourced voting for trending content will increase user engagement
+    4. Crowdsourced voting for trending content will increase user engagement
         - \# unique voters
         - \# votes
         - \# clicks on featured content
         - Bounce rate on featured content
 
-    e. Gamification of our content channels will increase user engagement
+    5. Gamification of our content channels will increase user engagement
         - scores by user (nice metric for later)
         - avg. days of inactivity (daily rewards or push notifications to re-engage would decrease this)
         - monthly unique visitors
         - clicks
         - revenue
 
-    f. Promotional text messages will increase user acquisition for our other channels by 10% or more
+    6. Promotional text messages will increase user acquisition for our other channels by 10% or more
         - \# texts sent
         - \# unsubscriptions
         - \# signups in each channel
