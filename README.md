@@ -222,7 +222,7 @@ id | user_id | action    | date_logged
 
 ### Examples (10)
 #### End-to-End Test
-[Here](https://drive.google.com/file/d/0Byveb6yWfKu2MDAzM0RaQ2hyY0U/view) is an example of an E2E test
+[Here](https://drive.google.com/file/d/0Byveb6yWfKu2Rmg0S1dZQ0JWNWs/view) is an example of an E2E test
 
 ### Unit Test
 ```python
@@ -366,11 +366,18 @@ A brief walk-through of logistic regression and how it works.
 5. Let's check the overall accuracy.
 
 # Analyzing Our Results Using Pandas (25)
-## Significance Testing (10)
-Here we'll walk through the intuition and explanation of significance testing.
+## Significance Testing (5)
+[A layman's explanation of t-testing](https://www.quora.com/What-is-an-intuitive-explanation-of-the-t-test-in-hypothesis-testing) by my former class-mate William Chen.
+
+### Definition of P-Value
+The `p-value` is the probability of getting our results with the null hypothesis being true. If the probability is low, it means our experimental hypothesis is more likely to be true. Usually if the p-value is less than 0.05 (or 5%), we side with the experimental hypothesis.
 
 ##  Example (15)
-We'll follow this process:
+### Data
+https://s3.amazonaws.com/simple-fractal-workshops/significance_analysis.csv
+
+### Process
+We'll follow this process and we'll use [`scipy`'s t-test](https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.stats.ttest_ind.html).
 
 0. Read in the data
 1. Compute aggregate metrics
