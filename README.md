@@ -100,7 +100,6 @@ id | username | email               | date_signed_up
 1  | james.c  | james.c@verizon.com | 2017-07-11 11:01:25
 2  | stacy    | stacy@verizon.com   | 2017-07-11 13:01:25
 3  | raul.r   | raul.r@verizon.com  | 2017-07-12 15:35:44
-```
 
 ### Events
 id | user_id | action    | date_logged
