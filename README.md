@@ -96,19 +96,21 @@ What is a back-end framework?
 ## SQL
 ### Users
 id | username | email               | date_signed_up
+--- | --- | --- | ---
 1  | james.c  | james.c@verizon.com | 2017-07-11 11:01:25
 2  | stacy    | stacy@verizon.com   | 2017-07-11 13:01:25
 3  | raul.r   | raul.r@verizon.com  | 2017-07-12 15:35:44
+```
 
 ### Events
 id | user_id | action    | date_logged
-...
+--- | --- | --- | ---
+...| ... |... |...
 7  | 3       | login         | 2017-07-12 08:08:08
 8  | 3       | add_to_cart   | 2017-07-12 08:28:11
 9  | 3       | clear_cart    | 2017-07-12 08:29:35
 10 | 1       | reset_password| 2017-07-13 14:12:12
 11 | 2       | login         | 2017-07-14 11:12:12
-
 
 ### Questions
 0. What do the above tables correspond to?
